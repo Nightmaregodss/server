@@ -22,7 +22,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
+    - name: 247
       run: |
-        npm install
-        grunt
+node index.js
